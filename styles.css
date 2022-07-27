@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    margin-top: 150px;
+}
+
+p{
+    font-size: 40px;
+    font-weight: bold;
+}
+/* 
+#input{
+    width: 30px;
+    transition: 2s;
+} */
+
+#input_container { 
+    position:relative;
+    padding:0;
+    margin:0 auto;
+    width: fit-content;
+}
+#input { 
+    height:20px;
+    margin:0;
+    padding-left:20px;
+    width: 0px;
+    transition: 2s;
+}
+#input_img {
+    position:absolute;
+    bottom:8px;
+    right:5px;
+    width:10px;
+    height:10px;
+}
+
+
+#kubikebi{
+    display: flex;
+    flex-wrap: wrap;
+    width:500px;
+    margin: 0 auto;
+}
+.kubiki{
+    width:30px;
+    height:30px;
+    background-color:black;
+    margin:2px;
+}
